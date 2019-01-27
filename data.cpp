@@ -773,13 +773,11 @@ void DataManager::SetDefaultValues()
 	mPersist.SetValue(TW_NO_SHA2, "1");
 #endif
 
-#ifdef TW_NO_SCREEN_TIMEOUT
 	mConst.SetValue("tw_screen_timeout_secs", "0");
 	mConst.SetValue("tw_no_screen_timeout", "1");
-#else
-	mPersist.SetValue("tw_screen_timeout_secs", "60");
-	mPersist.SetValue("tw_no_screen_timeout", "0");
-#endif
+	mPersist.SetValue("tw_screen_timeout_secs", "0");
+	mPersist.SetValue("tw_no_screen_timeout", "1");
+
 	mData.SetValue("tw_gui_done", "0");
 	mData.SetValue("tw_encrypt_backup", "0");
 	mData.SetValue("tw_sleep_total", "5");
