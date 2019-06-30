@@ -196,36 +196,24 @@
 
 			<button style="main_button">
 				<placement x="%indent%" y="%row8_y%"/>
-				<text>{@backup_btn=Backup}</text>
-				<action function="page">backup</action>
-			</button>
-
-			<button style="main_button">
-				<placement x="%center_x%" y="%row8_y%"/>
-				<text>{@restore_btn=Restore}</text>
-				<action function="page">restore</action>
-			</button>
-
-			<button style="main_button">
-				<placement x="%indent%" y="%row13a_y%"/>
 				<text>{@mount_btn=Mount}</text>
 				<action function="page">mount</action>
 			</button>
 
 			<button style="main_button">
-				<placement x="%center_x%" y="%row13a_y%"/>
+				<placement x="%center_x%" y="%row8_y%"/>
 				<text>{@settings_btn=Settings}</text>
 				<action function="page">settings</action>
 			</button>
 
 			<button style="main_button">
-				<placement x="%indent%" y="%row19_y%"/>
+				<placement x="%indent%" y="%row13a_y%"/>
 				<text>{@advanced_btn=Advanced}</text>
 				<action function="page">advanced</action>
 			</button>
 
 			<button style="main_button">
-				<placement x="%center_x%" y="%row19_y%"/>
+				<placement x="%center_x%" y="%row13a_y%"/>
 				<text>{@reboot_btn=Reboot}</text>
 				<action function="page">reboot</action>
 			</button>
